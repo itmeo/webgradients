@@ -7,7 +7,7 @@ A curated collection of splendid gradients made in `CSS3`, `.sketch` and `.PSD` 
 
 
 ##How To Use
-1) Download the file [`gradients.css`](https://github.com/itmeo/webgradients/blob/master/gradients.css).
+1) Download the file [`webgradients.css`](https://github.com/itmeo/webgradients/blob/master/webgradients.css).
 2) Place the file in your project folder.
 3) Link the file it in the `<head>` of your document.
 
