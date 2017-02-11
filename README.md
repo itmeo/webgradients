@@ -25,5 +25,5 @@ View full [compatibility list (view on Caniuse) »](http://caniuse.com/#search=b
 
 You can learn more about `background-blend-mode` [here (view on MDN) »](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) 
 ##License
-WebGradients is licensed under the [MIT](http://opensource.org/licenses/MIT) license.
+WebGradients is created under the [MIT](http://opensource.org/licenses/MIT) license.
 
