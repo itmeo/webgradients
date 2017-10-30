@@ -6,7 +6,7 @@ A curated collection of splendid gradients made in `CSS3`, `.sketch` and `.PSD` 
 
 
 
-##How To Use
+## How To Use
 1. Download the file [`webgradients.css`](https://github.com/itmeo/webgradients/blob/master/webgradients.css).
 2. Place the file in your project folder.
 3. Link the file it in the `<head>` of your document.
@@ -19,7 +19,7 @@ A curated collection of splendid gradients made in `CSS3`, `.sketch` and `.PSD` 
   ...
 ```
 
-##Browser Compatibility
+## Browser Compatibility
 Some gradients uses the `background-blend-mode` CSS property. It's supported by the majority of the modern browsers. 
 View full [compatibility list (view on Caniuse) »](http://caniuse.com/#search=background-blend-mode) 
 
