@@ -24,6 +24,6 @@ Some gradients uses the `background-blend-mode` CSS property. It's supported by 
 View full [compatibility list (view on Caniuse) »](http://caniuse.com/#search=background-blend-mode) 
 
 You can learn more about `background-blend-mode` [here (view on MDN) »](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) 
-##License
+## License
 WebGradients is created under the [MIT](http://opensource.org/licenses/MIT) license.
 
