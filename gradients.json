@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Winter Neva",
+    "favorite": false,
+    "index": 1,
+    "deg": 120,
+    "group": [ "#259BE5" ],
+    "gradient": [
+      {
+        "color": "#a1c4fd",
+        "pos": 0
+      },
+      {
+        "color": "#c2e9fb",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Heavy Rain",
+    "favorite": false,
+    "index": 2,
+    "deg": 0,
+    "group": [ "#E5E9EC" ],
+    "gradient": [
+      {
+        "color": "#cfd9df",
+        "pos": 0
+      },
+      {
+        "color": "#e2ebf0",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Dusty Grass",
+    "favorite": false,
+    "index": 3,
+    "deg": 120,
+    "group": [ "#7BCC9B" ],
+    "gradient": [
+      {
+        "color": "#d4fc79",
+        "pos": 0
+      },
+      {
+        "color": "#96e6a1",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Warm Flame",
+    "favorite": false,
+    "index": 4,
+    "deg": 45,
+    "group": [ "#F9AFAD" ],
+    "gradient": [
+      {
+        "color": "#ff9a9e",
+        "pos": 0
+      },
+      {
+        "color": "#fad0c4",
+        "pos": 99
+      },
+      {
+        "color": "#fad0c4",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Night Fade",
+    "favorite": false,
+    "index": 5,
+    "deg": 0,
+    "group": [ "#8B56E9", "#FC96D3" ],
+    "gradient": [
+      {
+        "color": "#a18cd1",
+        "pos": 0
+      },
+      {
+        "color": "#fbc2eb",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Night Party",
+    "favorite": false,
+    "index": 6,
+    "deg": 0,
+    "group": [ "#259BE5" ],
+    "gradient": [
+      {
+        "color": "#0250c5",
+        "pos": 0
+      },
+      {
+        "color": "#d43f8d",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Above The Sky",
+    "favorite": false,
+    "index": 7,
+    "deg": 0,
+    "group": [ "#E5E9EC" ],
+    "gradient": [
+      {
+        "color": "#BCBCBC",
+        "pos": 0
+      },
+      {
+        "color": "#D9D9D9",
+        "pos": 1
+      },
+      {
+        "color": "#e0e0e0",
+        "pos": 26
+      },
+      {
+        "color": "#efefef",
+        "pos": 48
+      },
+      {
+        "color": "#d9d9d9",
+        "pos": 75
+      },
+      {
+        "color": "#bcbcbc",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Aqua Splash",
+    "favorite": false,
+    "index": 8,
+    "deg": 15,
+    "group": [ "#7BCC9B" ],
+    "gradient": [
+      {
+        "color": "#13547a",
+        "pos": 0
+      },
+      {
+        "color": "#80d0c7",
+        "pos": 100
+      }
+    ]
+  }
+]
