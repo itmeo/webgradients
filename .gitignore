@@ -1,1 +1,5 @@
 .idea
+index.js
+package.json
+node_modules
+yarn.lock

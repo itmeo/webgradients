@@ -154,5 +154,84 @@
         "pos": 100
       }
     ]
+  },
+  {
+    "name": "Wide Matrix",
+    "favorite": false,
+    "index": 9,
+    "deg": 0,
+    "group": [ "#F9AFAD", "#8B56E9" ],
+    "gradient": [
+      {
+        "color": "#fcc5e4",
+        "pos": 0
+      },
+      {
+        "color": "#fda34b",
+        "pos": 15
+      },
+      {
+        "color": "#ff7882",
+        "pos": 35
+      },
+      {
+        "color": "#c8699e",
+        "pos": 52
+      },
+      {
+        "color": "#7046aa",
+        "pos": 72
+      },
+      {
+        "color": "#0c1db8",
+        "pos": 87
+      },
+      {
+        "color": "#020f75",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Plum Bath",
+    "favorite": false,
+    "index": 10,
+    "deg": 0,
+    "group": [ "#8B56E9" ],
+    "gradient": [
+      {
+        "color": "#cc208e",
+        "pos": 0
+      },
+      {
+        "color": "#6713d2",
+        "pos": 100
+      }
+    ]
+  },
+  {
+    "name": "Space Shift",
+    "favorite": false,
+    "index": 11,
+    "deg": 60,
+    "group": [ "#259BE5" ],
+    "gradient": [
+      {
+        "color": "#3d3393",
+        "pos": 0
+      },
+      {
+        "color": "#2b76b9",
+        "pos": 37
+      },
+      {
+        "color": "#2cacd1",
+        "pos": 65
+      },
+      {
+        "color": "#35eb93",
+        "pos": 100
+      }
+    ]
   }
 ]
