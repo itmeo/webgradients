@@ -5,7 +5,7 @@
     "index":"000",
     "deg":45,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -28,7 +28,8 @@
     "index":"001",
     "deg":0,
     "group":[
-
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -47,7 +48,8 @@
     "index":"002",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -70,7 +72,7 @@
     "index":"003",
     "deg":90,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -89,7 +91,7 @@
     "index":"004",
     "deg":90,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -112,7 +114,7 @@
     "index":"005",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -135,7 +137,7 @@
     "index":"006",
     "deg":120,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -154,7 +156,7 @@
     "index":"007",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -173,7 +175,7 @@
     "index":"008",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -273,7 +275,8 @@
     "index":"013",
     "deg":120,
     "group":[
-
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -292,7 +295,8 @@
     "index":"014",
     "deg":120,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -311,7 +315,9 @@
     "index":"015",
     "deg":120,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -330,7 +336,7 @@
     "index":"016",
     "deg":120,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -406,7 +412,7 @@
     "index":"020",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -444,7 +450,8 @@
     "index":"022",
     "deg":0,
     "group":[
-      "#E5E9EC"
+      "#E5E9EC",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -463,7 +470,8 @@
     "index":"023",
     "deg":0,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -482,7 +490,7 @@
     "index":"024",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -543,7 +551,7 @@
     "index":"027",
     "deg":135,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -600,7 +608,7 @@
     "index":"030",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -619,7 +627,8 @@
     "index":"031",
     "deg":0,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -638,7 +647,7 @@
     "index":"032",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -657,7 +666,8 @@
     "index":"033",
     "deg":0,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -696,7 +706,7 @@
     "index":"035",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -715,7 +725,7 @@
     "index":"036",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -738,7 +748,8 @@
     "index":"037",
     "deg":0,
     "group":[
-
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -756,12 +767,12 @@
     ]
   },
   {
-    "name":"Deep Blue",
+    "name":"Deep Blue 2",
     "favorite":false,
     "index":"038",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -822,7 +833,7 @@
     "index":"041",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -861,7 +872,7 @@
     "index":"043",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -907,7 +918,7 @@
     "index":"045",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -945,7 +956,7 @@
     "index":"047",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -968,7 +979,7 @@
     "index":"048",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -1160,7 +1171,7 @@
     "index":"058",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1179,7 +1190,7 @@
     "index":"059",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1202,7 +1213,8 @@
     "index":"060",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1225,7 +1237,8 @@
     "index":"061",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1248,7 +1261,8 @@
     "index":"062",
     "deg":0,
     "group":[
-      "#E5E9EC"
+      "#E5E9EC",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1271,7 +1285,8 @@
     "index":"063",
     "deg":0,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1313,7 +1328,8 @@
     "index":"065",
     "deg":0,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1332,7 +1348,8 @@
     "index":"066",
     "deg":0,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1351,7 +1368,8 @@
     "index":"067",
     "deg":0,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1370,7 +1388,8 @@
     "index":"068",
     "deg":0,
     "group":[
-
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1427,7 +1446,7 @@
     "index":"071",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1450,7 +1469,7 @@
     "index":"072",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -1593,7 +1612,8 @@
     "index":"079",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1631,7 +1651,7 @@
     "index":"081",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -1669,7 +1689,7 @@
     "index":"083",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -1707,7 +1727,8 @@
     "index":"085",
     "deg":-20,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1726,7 +1747,8 @@
     "index":"086",
     "deg":-20,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1787,7 +1809,7 @@
     "index":"089",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1825,7 +1847,8 @@
     "index":"091",
     "deg":-20,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1848,7 +1871,7 @@
     "index":"092",
     "deg":-20,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -1890,7 +1913,7 @@
     "index":"094",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -1928,7 +1951,8 @@
     "index":"096",
     "deg":0,
     "group":[
-      "#E5E9EC"
+      "#E5E9EC",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -2027,7 +2051,7 @@
     "index":"101",
     "deg":-60,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2046,7 +2070,7 @@
     "index":"102",
     "deg":-20,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2146,7 +2170,7 @@
     "index":"107",
     "deg":45,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2184,7 +2208,7 @@
     "index":"109",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -2222,7 +2246,7 @@
     "index":"111",
     "deg":-20,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2261,7 +2285,8 @@
     "index":"113",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2326,7 +2351,7 @@
     "index":"116",
     "deg":45,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2345,7 +2370,8 @@
     "index":"117",
     "deg":0,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2411,7 +2437,7 @@
     "index":"120",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2434,7 +2460,7 @@
     "index":"121",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2476,7 +2502,7 @@
     "index":"123",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2518,7 +2544,7 @@
     "index":"125",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2537,7 +2563,7 @@
     "index":"126",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2556,7 +2582,7 @@
     "index":"127",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2617,7 +2643,7 @@
     "index":"130",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2659,7 +2685,7 @@
     "index":"132",
     "deg":-20,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2720,7 +2746,8 @@
     "index":"135",
     "deg":0,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2739,7 +2766,7 @@
     "index":"136",
     "deg":0,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -2861,7 +2888,7 @@
     "index":"142",
     "deg":0,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -2918,7 +2945,8 @@
     "index":"145",
     "deg":0,
     "group":[
-
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -2937,7 +2965,7 @@
     "index":"146",
     "deg":0,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -2979,7 +3007,8 @@
     "index":"148",
     "deg":0,
     "group":[
-
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3037,7 +3066,8 @@
     "index":"151",
     "deg":-225,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3060,7 +3090,8 @@
     "index":"152",
     "deg":-225,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3129,7 +3160,7 @@
     "index":"155",
     "deg":-225,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3148,7 +3179,7 @@
     "index":"156",
     "deg":-225,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3171,7 +3202,7 @@
     "index":"157",
     "deg":-225,
     "group":[
-
+      "#F9AFAD"
     ],
     "gradient":[
       {
@@ -3217,7 +3248,7 @@
     "index":"159",
     "deg":-225,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -3378,7 +3409,7 @@
     "index":"167",
     "deg":-225,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3472,7 +3503,7 @@
     "index":"171",
     "deg":-225,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3495,7 +3526,7 @@
     "index":"172",
     "deg":-225,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -3518,7 +3549,7 @@
     "index":"173",
     "deg":-225,
     "group":[
-
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -3541,7 +3572,9 @@
     "index":"174",
     "deg":-225,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3564,7 +3597,7 @@
     "index":"175",
     "deg":-225,
     "group":[
-
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3587,7 +3620,8 @@
     "index":"176",
     "deg":-225,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -3610,7 +3644,8 @@
     "index":"177",
     "deg":-225,
     "group":[
-      "#7BCC9B"
+      "#7BCC9B",
+      "#8B56E9"
     ],
     "gradient":[
       {
@@ -3633,7 +3668,9 @@
     "index":"178",
     "deg":-225,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#F9AFAD",
+      "#FC96D3"
     ],
     "gradient":[
       {
@@ -3656,7 +3693,8 @@
     "index":"179",
     "deg":-225,
     "group":[
-      "#259BE5"
+      "#259BE5",
+      "#8B56E9"
     ],
     "gradient":[
       {
