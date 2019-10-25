@@ -105,6 +105,18 @@
       {
         "color":"#ff8c7f",
         "pos":21
+      },
+      {
+        "color": "#f99185",
+        "pos": 52
+      },
+      {
+        "color": "#cf556c",
+        "pos": 78
+      },
+      {
+        "color": "#b12a5b",
+        "pos": 100
       }
     ]
   },
@@ -739,6 +751,18 @@
       {
         "color":"#b8cbb8",
         "pos":0
+      },
+      {
+        "color":"#e2c58b",
+        "pos": 30
+      },
+      {
+        "color":"#c2ce9c",
+        "pos": 64
+      },
+      {
+        "color":"#7edbdc",
+        "pos": 100
       }
     ]
   },
@@ -763,11 +787,23 @@
       {
         "color":"#b465da",
         "pos":0
-      }
+      },
+      {
+        "color":"#cf6cc9",
+        "pos":33
+      },
+      {
+        "color":"#ee609c",
+        "pos": 66
+      },
+      {
+        "color":"#ee609c",
+        "pos": 100
+      },
     ]
   },
   {
-    "name":"Deep Blue 2",
+    "name":"Blue Velvet",
     "favorite":false,
     "index":"039",
     "deg":0,
