@@ -822,29 +822,6 @@
     ]
   },
   {
-    "name":"Coup De Grace",
-    "favorite":false,
-    "index":"040",
-    "deg":0,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"",
-        "pos":0
-      },
-      {
-        "color":"",
-        "pos":255
-      },
-      {
-        "color":"",
-        "pos":255
-      }
-    ]
-  },
-  {
     "name":"Happy Acid",
     "favorite":false,
     "index":"041",
@@ -922,29 +899,6 @@
       {
         "color":"#57c6e1",
         "pos":42
-      }
-    ]
-  },
-  {
-    "name":"Loon Crest",
-    "favorite":false,
-    "index":"045",
-    "deg":0,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"",
-        "pos":0
-      },
-      {
-        "color":"",
-        "pos":255
-      },
-      {
-        "color":"",
-        "pos":255
       }
     ]
   },
@@ -1591,29 +1545,6 @@
       {
         "color":"#ffb199",
         "pos":100
-      }
-    ]
-  },
-  {
-    "name":"Sharp Glass",
-    "favorite":false,
-    "index":"074",
-    "deg":-180,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"",
-        "pos":0
-      },
-      {
-        "color":"",
-        "pos":255
-      },
-      {
-        "color":"",
-        "pos":255
       }
     ]
   },
@@ -2501,29 +2432,6 @@
     ]
   },
   {
-    "name":"Chemic Aqua",
-    "favorite":false,
-    "index":"119",
-    "deg":0,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"",
-        "pos":0
-      },
-      {
-        "color":"",
-        "pos":255
-      },
-      {
-        "color":"",
-        "pos":255
-      }
-    ]
-  },
-  {
     "name":"Seashore",
     "favorite":false,
     "index":"120",
@@ -2945,29 +2853,6 @@
       {
         "color":"#9bc5c3",
         "pos":100
-      }
-    ]
-  },
-  {
-    "name":"Earl Gray",
-    "favorite":false,
-    "index":"141",
-    "deg":0,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"",
-        "pos":0
-      },
-      {
-        "color":"",
-        "pos":255
-      },
-      {
-        "color":"",
-        "pos":255
       }
     ]
   },
