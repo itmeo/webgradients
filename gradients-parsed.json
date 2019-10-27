@@ -2738,29 +2738,6 @@
     ]
   },
   {
-    "name":"Slick Carbon",
-    "favorite":false,
-    "index":"135",
-    "deg":0,
-    "group":[
-      "#E5E9EC"
-    ],
-    "gradient":[
-      {
-        "color":"#323232",
-        "pos":0
-      },
-      {
-        "color":"#3F3F3F",
-        "pos":40
-      },
-      {
-        "color":"#1C1C1C",
-        "pos":100
-      }
-    ]
-  },
-  {
     "name":"North Miracle",
     "favorite":false,
     "index":"136",
