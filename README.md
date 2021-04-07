@@ -2,7 +2,7 @@
 A curated collection of splendid gradients made in `CSS3`, `.sketch` and `.PSD` formats. 
 [View all the gradients here »](https://webgradients.com)
 
-[![N|Solid](https://itmeo.com/public/small_bar_powered_by_itmeo3.png)](https://itmeo.com)
+[![N|Solid](https://beta.airtap.co/img/components/footer/logo-itmeo.svg)](https://itmeo.com)
 
 
 
