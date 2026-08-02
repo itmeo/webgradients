@@ -1,4 +1,11 @@
 # WebGradients
+
+<a href="https://donate.itmeo.com">
+  <img src="https://img.shields.io/badge/Donate-donate.itmeo.com-635BFF?style=for-the-badge&logo=heart&logoColor=white" alt="Donate" height="50">
+</a>
+
+If you like WebGradients, consider supporting the project — it helps keep the tools free, fast, and ad-free.
+
 A curated collection of splendid gradients made in `CSS3`, `.sketch`, `.PSD` and `Figma` formats.
 [View all the gradients here »](https://webgradients.com)
 
