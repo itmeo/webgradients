@@ -8,8 +8,29 @@ data repository — 180 curated gradients, no build step, no dependencies.
 | File | Gradients | Use it for |
 | --- | --- | --- |
 | [`webgradients.css`](webgradients.css) | 180 (complete, canonical) | Ready-to-use CSS classes. Source of truth for the full set. |
-| [`gradients-parsed.json`](gradients-parsed.json) | 174 | Structured metadata: name, angle, color stops. Best source for programmatic use. |
-| [`gradients.json`](gradients.json) | 11 | Legacy/partial dataset kept for backwards compatibility. Do not treat as complete — use `gradients-parsed.json` instead. |
+| [`gradients.json`](gradients.json) | 180 (complete) | Structured metadata regenerated from `webgradients.css`: name, angle, color stops. Preferred source for programmatic use. |
+| [`gradients-parsed.json`](gradients-parsed.json) | 174 | Older structured dataset (site-internal history). Missing 6 entries and has 2 known name typos (`Arielles Smile`, `October Silenceiver`). Kept as-is; prefer `gradients.json`. |
+
+### Why `gradients.json` only had 11 entries until now
+
+It was an abandoned 2019 prototype (see `git log -- gradients.json`) — the real data work happened in
+`gradients-parsed.json` instead, which itself topped out at 174/180 because 6 gradients
+(`Coup de Grace`, `Loon Crest`, `Sharp Glass`, `Chemic Aqua`, `Slick Carbon`, `Earl Gray`) use layered
+`background-blend-mode` effects that don't reduce to a single `{deg, gradient}` pair, so the original
+pipeline silently dropped them. `gradients.json` is now regenerated directly from `webgradients.css`
+(the canonical, complete source) to close that gap:
+
+- 174 entries: color-stop data reused from `gradients-parsed.json` (name-matched, typos corrected).
+- 5 entries (`Coup de Grace`, `Loon Crest`, `Sharp Glass`, `Chemic Aqua`, `Earl Gray`): no layer has real
+  hex color stops — they're a flat base color under a translucent blend-mode sheen — so they're
+  represented as a flat 2-stop gradient of that base color (not a fabricated second color).
+- `Slick Carbon`: its primary layer does have real hex stops, extracted directly from the CSS.
+- All 6 are grouped under `#E5E9EC` (the palette's only neutral/gray bucket), consistent with the 4
+  other blend-mode composites already in the dataset (`Above Clouds`, `Raccoon Back`, `Elegance`,
+  `Full Metal`), which are grouped the same way.
+
+If regenerating `gradients.json` again, always derive from `webgradients.css`, not from
+`gradients-parsed.json` — the CSS is the only file guaranteed to have all 180 and the correct names.
 
 There is no PNG/Figma/Sketch/PSD data in this repo — those formats are distributed via
 [webgradients.com](https://webgradients.com) and the [Figma plugin](https://www.figma.com/community/plugin/802147585857776440/webgradients),
@@ -50,7 +71,7 @@ Every class name in the file matches `^[a-z0-9_]+$` — safe to parse with a sim
 | --- | --- | --- |
 | `name` | string | Gradient name, matches the CSS comment and (slugified) the CSS class. |
 | `favorite` | boolean | Curation flag, not meaningful to consumers — always `false` in practice. |
-| `index` | string/number | 1-based position. Zero-padded string (`"001"`) in `gradients-parsed.json`, plain number in `gradients.json`. |
+| `index` | string | 1-based position, zero-padded (`"001"`–`"180"`), matches the CSS comment number. |
 | `deg` | number | CSS gradient angle in degrees (`linear-gradient(<deg>deg, ...)`). |
 | `group` | string[] | One or more representative/dominant hex colors for the gradient. |
 | `gradient` | object[] | Ordered color stops: `color` (hex) and `pos` (0–100, percent position). |
