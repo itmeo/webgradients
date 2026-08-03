@@ -9,7 +9,7 @@ data repository — 180 curated gradients, no build step, no dependencies.
 | --- | --- | --- |
 | [`webgradients.css`](webgradients.css) | 180 (complete, canonical) | Ready-to-use CSS classes. Source of truth for the full set. |
 | [`gradients.json`](gradients.json) | 180 (complete) | Structured metadata regenerated from `webgradients.css`: name, angle, color stops. Preferred source for programmatic use. |
-| [`gradients-parsed.json`](gradients-parsed.json) | 174 | Older structured dataset (site-internal history). Missing 6 entries and has 2 known name typos (`Arielles Smile`, `October Silenceiver`). Kept as-is; prefer `gradients.json`. |
+| [`gradients-parsed.json`](gradients-parsed.json) | 174 | Older structured dataset (site-internal history). Missing the same 6 entries as before (blend-mode composites); its 2 name typos (`Arielles Smile`, `October Silenceiver`) have been fixed. Prefer `gradients.json` for the complete set. |
 
 ### Why `gradients.json` only had 11 entries until now
 
@@ -20,7 +20,7 @@ It was an abandoned 2019 prototype (see `git log -- gradients.json`) — the rea
 pipeline silently dropped them. `gradients.json` is now regenerated directly from `webgradients.css`
 (the canonical, complete source) to close that gap:
 
-- 174 entries: color-stop data reused from `gradients-parsed.json` (name-matched, typos corrected).
+- 174 entries: color-stop data reused from `gradients-parsed.json` (name-matched; the source file's 2 typos, `Arielles Smile` and `October Silenceiver`, have since been fixed in place there too).
 - 5 entries (`Coup de Grace`, `Loon Crest`, `Sharp Glass`, `Chemic Aqua`, `Earl Gray`): no layer has real
   hex color stops — they're a flat base color under a translucent blend-mode sheen — so they're
   represented as a flat 2-stop gradient of that base color (not a fabricated second color).
