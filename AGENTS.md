@@ -11,18 +11,19 @@ data repository — 180 curated gradients, no build step, no dependencies.
 | [`gradients.json`](gradients.json) | 180 (complete) | Structured metadata regenerated from `webgradients.css`: name, angle, color stops. Preferred source for programmatic use. |
 | [`gradients-parsed.json`](gradients-parsed.json) | 174 | Older structured dataset (site-internal history). Missing the same 6 entries as before (blend-mode composites); its 2 name typos (`Arielles Smile`, `October Silenceiver`) have been fixed. Prefer `gradients.json` for the complete set. |
 
-### Known upstream bug: two gradients both named/classed `Deep Blue`
+### Fixed: two gradients used to share the name/class `Deep Blue` (now resolved)
 
-`webgradients.css` defines `.deep_blue{}` **twice** — index `016` (`#e0c3fc`→`#8ec5fc`) and index `039`
-(`#6a11cb`→`#2575fc`) — both commented `/*NNN Deep Blue*/`. In CSS the later rule wins, so `.deep_blue`
-on the actual site/plugin always renders index 039's colors; index 016's gradient is unreachable through
-that class name. `gradients-parsed.json` originally called index 039 `"Blue Velvet"` (a leftover from
-before it was renamed to `Deep Blue` in the CSS, without updating this file) — that's been corrected to
-match the CSS, so `gradients.json`/`gradients-parsed.json` now also have two `"Deep Blue"` entries,
-distinguishable only by `index` (`"016"` vs `"039"`). This is a pre-existing naming collision in
-`webgradients.css` itself, not something introduced by the JSON regeneration — fixing it (renaming one
-of the two CSS classes) would need a deliberate decision since it changes a public class name that
-existing users may already reference.
+`webgradients.css` used to define `.deep_blue{}` **twice** — index `016` (`#e0c3fc`→`#8ec5fc`) and index
+`039` (`#6a11cb`→`#2575fc`) — both commented `/*NNN Deep Blue*/`. In CSS the later rule wins, so
+`.deep_blue` always rendered index 039's colors; index 016's gradient was unreachable through that class
+name. `gradients-parsed.json` originally called index 039 `"Blue Velvet"` — a leftover from before it
+was renamed to `Deep Blue` in the CSS without updating this file, which is what caused it to look like a
+missing/orphaned entry.
+
+Resolved by keeping the class that was actually live (`.deep_blue` / index `039`, so nothing that already
+depended on that class name changes) and giving the previously-unreachable index `016` a new, unique
+name: **`Lilac Sky`** / `.lilac_sky`. Applied consistently across `webgradients.css`, `gradients.json`,
+and `gradients-parsed.json`. `Blue Velvet` is retired — index 039 is `Deep Blue` in all three files now.
 
 ### Why `gradients.json` only had 11 entries until now
 
